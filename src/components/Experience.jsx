@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { EXPERIENCES } from "../constants";
+import { EXPERIENCES } from "../../constants";
 
 const Experience = () => {
   return (
@@ -31,7 +31,7 @@ const Experience = () => {
             >
               <h6 className="mb-2 font-semibold">
                 <span className="text-sm text-purple-100">
-                  {experience.company}
+                  {experience.company} - {experience.role}
                 </span>
               </h6>
               <p className="mb-4 text-neutral-400">{experience.description}</p>

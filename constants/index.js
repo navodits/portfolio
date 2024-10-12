@@ -26,14 +26,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Online SHopping Platform",
+    title: "Online Shopping Platform - ShopSlayer",
     image: project1,
     description:
       "A fully functional online shopping website with features like product listing, shopping cart, and user authentication.",
     technologies: ["React", "Next.js", "GraphQl", "MongoDB"],
   },
   {
-    title: "Hungry Wanderer - Food Market Place Mobile App",
+    title: "Food Market Place Mobile App - Hungry Wanderer",
     image: project2,
     description:
       "Food Sharing App created with React Native and Node JS that let you give or take food/ingredients before it goes in the bin and hence reduces food wastage.",
