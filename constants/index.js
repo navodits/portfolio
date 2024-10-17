@@ -47,11 +47,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "framer-motion"],
   },
   {
-    title: "Tic Tac Toe",
+    title: "Web App - ThingyLife",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "React Native", "Express", "Node.js"],
+      "This is a Web App created with React and Django that let you Journal your daily life, add photoghrapic memories and more.",
+    technologies: ["Django", "React", "HTML/CSS", "MongoDB"],
   },
 ];
 
