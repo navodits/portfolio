@@ -10,7 +10,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience{" "}
+        Experience
       </motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (
@@ -22,6 +22,13 @@ const Experience = () => {
               className="w-full lg:w-1/4"
             >
               <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <img
+                src={experience.image}
+                width={150}
+                height={150}
+                alt={experience.company}
+                className="mb-6 rounded"
+              />
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

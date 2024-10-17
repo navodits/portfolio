@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
+import experience from "../assets/experience/experience.jpg";
 import slide1 from "../assets/caraousel/slide1.jpg";
 import slide2 from "../assets/caraousel/slide2.jpg";
 import slide3 from "../assets/caraousel/slide3.jpg";
@@ -17,6 +18,7 @@ export const ABOUT_TEXT = `I am a committed and versatile full stack developer p
 export const EXPERIENCES = [
   {
     year: "2022 May - 2024 April",
+    image: experience,
     role: "Application Developer",
     company: "Wawanesa Insurance",
     description: `Planned, worked, and delivered several projects using Angular, React and Java. Implemented, tested and debugged RESTful APIs and frontend production issues. Collaborated with stakeholders to define project requirements and timelines.`,

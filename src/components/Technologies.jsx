@@ -1,6 +1,6 @@
-import { FaJava, FaNodeJs } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiRedux } from "react-icons/si";
+import { SiDjango, SiExpress, SiMongodb, SiRedux } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 import Icon from "./Icon";
@@ -35,7 +35,7 @@ const Technologies = () => {
           <SiRedux className="text-7xl text-purple-400" />
         </Icon>
         <Icon duration={2}>
-          <FaNodeJs className="text-7xl text-green-700" />
+          <SiDjango className="text-7xl text-green-950" />
         </Icon>
         <Icon duration={2.5}>
           <FaJava className="text-7xl text-sky-700" />
